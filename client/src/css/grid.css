@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin-top: -15px;
+}
+
+.grid-item {
+    border: 3px solid #ffe79e;
+    padding: 10px 13px;
+}
+
+/* Left */
+#p00, #p10, #p20 {
+    border-left: none;
+}
+
+/* Top */
+#p00, #p01, #p02 {
+    border-top: none;
+}
+
+/* Right */
+#p02, #p12, #p22 {
+    border-right: none;
+}
+
+/* Bottom */
+#p20, #p21, #p22 {
+    border-bottom: none;
+}

@@ -1,0 +1,46 @@
+.Form {
+    width: 25%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.Form > h5 {
+    margin-bottom: 0;
+    padding-left: 22px;
+    margin-bottom: 8px;
+}
+
+.Form > h1 {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.Form > form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.Form > form > label, .Form > h5 {
+    font-weight: 560;
+}
+
+@media (max-width: 767px) {
+    .navigate-back {
+        padding-left: 28px;
+    }
+
+    .Form {
+        width: 100%;
+    }
+
+    .Form > h5 {
+        padding-left: 30px;
+    }
+
+    .Form > h1 {
+        padding-left: 29px;
+    }
+}

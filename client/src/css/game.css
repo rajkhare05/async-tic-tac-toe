@@ -1,0 +1,22 @@
+#game {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.piece {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.move {
+    background-color: #ffe79e;
+    text-align: center;
+    padding: 13px 0;
+}

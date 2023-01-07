@@ -1,0 +1,40 @@
+#home {
+    width: 23%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 10px;
+    /* below part for only dev ----*/
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 2%;
+    margin-top: 5px;
+}
+
+.block {
+    flex-grow: 1;
+}
+
+#box1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.btn-flex-center {
+    width: 23vw;
+    align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #home {
+        width: 100%;
+        border: none;
+    }
+    .btn-flex-center {
+        width: 90%;
+    }
+}
+

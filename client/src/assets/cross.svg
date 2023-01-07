@@ -1,0 +1,8 @@
+<svg width="200" height="200" style="border: 1px solid black;">
+  <rect rx="10" fill="#2C8DFF" width="150" height="25"
+    transform="rotate(48) translate(50 -15)"
+  />
+  <rect ry="10" fill="#2C8DFF" width="150" height="25"
+    transform="rotate(-48) translate(-85 110)"
+  />
+</svg>
